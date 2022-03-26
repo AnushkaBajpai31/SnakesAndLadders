@@ -20,9 +20,10 @@ The code is for Backend Only.
 
 # How to run:
 1. Install Python with Flask
-2. Run backend\app.py file
-3. Open Postman or any other API supporting platform.
-4. Hit URL: http://127.0.0.1:5000/ with GET METHOD
+2. Make Changes to config.json (Change LOG_FILE_PATH according to your directory).
+3. Run backend\app.py file
+4. Open Postman or any other API supporting platform.
+5. Hit URL: http://127.0.0.1:5000/ with GET METHOD
 	Response expected: "Hello World! The server is up and running."
 5. Now Hit URL: http://127.0.0.1:5000/play with POST METHOD
 	Set Request Body as:
