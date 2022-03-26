@@ -1,0 +1,7 @@
+{
+    "DICE": {
+        "MIN": 1,
+        "MAX": 6
+    },
+    "LOG_FOLDER_PATH": "D:\\snake_n_ladder\\backend\\logs"
+}
