@@ -1,0 +1,52 @@
+Player Current Location: None
+Rolled Dice, Got: 3
+Player Location After Move: None
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [3]
+Player Current Location: None
+Rolled Dice, Got: 6
+Player Location After Move: [4, -1]
+Player Current Location: [4, -1]
+Rolled Dice, Got: 5
+Player Location After Move: [2, 4]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [6, 5]
+Player Current Location: [2, 4]
+Rolled Dice, Got: 5
+Player Location After Move: [1, 0]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [5]
+Player Current Location: [1, 0]
+Rolled Dice, Got: 5
+Player Location After Move: [0, 4]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [5]
+Player Current Location: [0, 4]
+Rolled Dice, Got: 1
+Player Location After Move: [0, 3]
+Player Bitten By Snake, Reaches: [1, 2]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 4
+Moves made by Player Anushka in this turn are: [1]
+Player Current Location: [1, 2]
+Rolled Dice, Got: 6
+Player Location After Move: [0, 1]
+Player Current Location: [0, 1]
+Rolled Dice, Got: 2
+Player Location After Move: [0, 1]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [6, 2]
+Player Current Location: [0, 1]
+Rolled Dice, Got: 1
+Player Location After Move: [0, 0]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [1]
+Lucky Moves in this game: 5
+Unlucky Moves in this game: 1
+Winner of this game: Anushka

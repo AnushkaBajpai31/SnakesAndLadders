@@ -1,0 +1,43 @@
+Player Current Location: None
+Rolled Dice, Got: 2
+Player Location After Move: None
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [2]
+Player Current Location: None
+Rolled Dice, Got: 1
+Player Location After Move: None
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [1]
+Player Current Location: None
+Rolled Dice, Got: 6
+Player Location After Move: [4, -1]
+Player Current Location: [4, -1]
+Rolled Dice, Got: 2
+Player Location After Move: [3, 2]
+Player Climbs The Ladder, Reaches: [2, 3]
+Max Climb Distance in this turn is: 4
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [6, 2]
+Player Current Location: [2, 3]
+Rolled Dice, Got: 6
+Player Location After Move: [1, 2]
+Player Current Location: [1, 2]
+Rolled Dice, Got: 6
+Player Location After Move: [0, 1]
+Player Current Location: [0, 1]
+Rolled Dice, Got: 3
+Player Location After Move: [0, 1]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [6, 6, 3]
+Player Current Location: [0, 1]
+Rolled Dice, Got: 1
+Player Location After Move: [0, 0]
+Max Climb Distance in this turn is: 0
+Max Slide Distance in this turn is: 0
+Moves made by Player Anushka in this turn are: [1]
+Lucky Moves in this game: 5
+Unlucky Moves in this game: 0
+Winner of this game: Anushka

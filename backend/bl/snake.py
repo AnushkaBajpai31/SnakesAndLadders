@@ -5,8 +5,9 @@ class Snake:
     def __init__(self, snakes, board_utility):
         self.board_utility = board_utility
         self.snakes_dict = self.initializeSnakes(snakes)
+        self.snakes_faces = set([snake[0] for snake in snakes])
 
-    def initializeSnakes(self, snakes_list):
+    def initializeSnakes(self, snakes_list: list):
         try:
             board_dict = self.board_utility.getBoardDict()
             snakes_dict = dict()
@@ -20,14 +21,14 @@ class Snake:
             print('Error while initializing Snakes: ', error)
             raise Exception(Error.SNAKE_INIT_ERROR)
     
-    def checkIfSnake(self, location):
+    def checkIfSnake(self, location: list):
         try:
             return tuple(location) in self.snakes_dict
         except Exception as error:
             print('Error while checking Snake: ', error)
             raise Exception(Error.SNAKE_CHECK_ERROR)
 
-    def bite(self, location):
+    def bite(self, location: list):
         try:
             distance_dict = self.board_utility.getDistanceDict()
             bite_location = self.snakes_dict[tuple(location)]
@@ -37,7 +38,7 @@ class Snake:
             print('Error while Snake biting: ', error)
             raise Exception(Error.SNAKE_BITE_ERROR)
 
-    def checkIfMissedSnake(self, num):
-        if num - 1 in self.snakes_dict or num + 1 in self.snakes_dict or num - 2 in self.snakes_dict or num + 2 in self.snakes_dict:
+    def checkIfMissedSnake(self, num: int):
+        if num - 1 in self.snakes_faces or num + 1 in self.snakes_faces or num - 2 in self.snakes_faces or num + 2 in self.snakes_faces:
             return True
         return False

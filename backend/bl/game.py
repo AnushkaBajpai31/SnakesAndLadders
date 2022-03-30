@@ -1,3 +1,4 @@
+from bl.player import Player
 from constants.errors import Error
 from constants.game import PlayerStatus, Game as GameConstants
 from factory.bl_factory import BLFactory
@@ -65,7 +66,7 @@ class Game:
             print('Error while calling Play: ', error)
             raise Exception(Error.GAME_ERROR)
     
-    def checkForSnakesAndLadders(self, player, max_climb, max_bite):
+    def checkForSnakesAndLadders(self, player: Player, max_climb: int, max_bite: int):
         try:
             # TODO: Check case if Snake bite location and Ladder Climb location same?
             if self.board.snakes.checkIfSnake(player.location):
@@ -86,20 +87,12 @@ class Game:
             raise Exception(Error.SNAKES_AND_LADDERS_ERROR)
 
     def isActive(self):
-        try:
-            for player in self.players:
-                if player.status == PlayerStatus.WIN:
-                    self.winner = player.name
-                    return True
-            return False
-        except Exception as error:
-            print('Error while calling isActive: ', error)
-            raise Exception(Error.STATUS_ERROR)
+        for player in self.players:
+            if player.status == PlayerStatus.WIN:
+                self.winner = player.name
+                return True
+        return False
 
     def resetMoves(self):
-        try:
-            for player in self.players:
-                player.moves = 1
-        except Exception as error:
-            print('Error while calling resetting Moves: ', error)
-            raise Exception(Error.GAME_ERROR)
+        for player in self.players:
+            player.moves = 1
