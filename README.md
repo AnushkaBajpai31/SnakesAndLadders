@@ -35,6 +35,12 @@ The code is for Backend Only.
 	}
 	Response expected: Anushka wins.
 6. Go to backend\logs folder. Here we will be able to find the logs for the entire game.
+7. To run on Docker Desktop:
+	docker run -d -p 5000:5000 backend
+	Run APIs using http://localhost:5000/ with GET/POST METHOD
+8. To stop docker image:
+	docker stop <container-id>
+	(Use docker ps command to get current container-id)
 
 # API Contract:
 1. Players: List of player names
